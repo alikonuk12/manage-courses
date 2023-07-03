@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 220px;
+    height: 140px;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardText {
+    font: {
+        weight: 500;
+        size: 14px;
+    }
+}
+
+.action {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cardAmount {
+    font: {
+        weight: 700;
+        size: 30px;
+    }
+}

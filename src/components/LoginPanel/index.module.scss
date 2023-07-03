@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    gap: 50px;
+    padding: 35px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.header {
+    font: {
+        size: 32px;
+        weight: 700;
+    }
+    padding: 0 10px;
+    border-left: 6px solid #F8D442;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    font: {
+        size: 22px;
+        weight: 600;
+    }
+}
+
+.description {
+    font: {
+        size: 14px;
+        weight: 400;
+    }
+    color: #6C6C6C;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+}
+
+.textField {
+    ::placeholder {
+        font: {
+            size: 12px;
+            weight: 400
+        }
+    }
+}
+
+.button {
+    color: #FFFFFF !important;
+    background-color: #F8D442 !important;
+
+    &:hover {
+        color: #F8D442 !important;
+        background-color: #FFFFFF !important;
+    }
+}
+
+.forgotPasswordContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 5px;
+}
+
+.forgotPasswordText {
+    color: #6C6C6C;
+}
+
+.forgotPasswordLink {
+    color: #F8D442;
+}

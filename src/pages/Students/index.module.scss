@@ -1,0 +1,71 @@
+.upperSide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 80px);
+    padding: 15px 40px;
+}
+
+.title {
+    font: {
+        size: 22px;
+        weight: 700;
+    }
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    width: 425px;
+}
+
+.add {
+    color: #FFFFFF !important;
+    background-color: #FEAF00 !important;
+
+    &:hover {
+        color: #FEAF00 !important;
+        background-color: #FFFFFF !important;
+    }
+}
+
+.actionButton {
+    color: #FFFFFF !important;
+    background-color: #00FF00 !important;
+
+    &:hover {
+        color: #00FF00 !important;
+        background-color: #FFFFFF !important;
+    }
+}
+
+.cancelButton {
+    color: #FFFFFF !important;
+    background-color: #FF0000 !important;
+
+    &:hover {
+        color: #FF0000 !important;
+        background-color: #FFFFFF !important;
+    }
+}
+
+.container {
+    max-height: calc(100vh - 130px);
+    background-color: #F8F8F8 !important;
+}
+
+.body {
+    background-color: #FFFFFF;
+}
+
+.rowButton {
+    cursor: pointer;
+}
+
+.dialogContent {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 10px;
+}
